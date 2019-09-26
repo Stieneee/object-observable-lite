@@ -1,0 +1,39 @@
+{
+  "name": "object-observable-lite",
+  "version": "1.0.0",
+  "description": "Observe object changes deeply without cloning in an efficient manner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -b --exit",
+    "coverage": "nyc --reporter=text npm run test",
+    "coverage-html": "nyc --reporter=html npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stieneee/object-observable-lite.git"
+  },
+  "keywords": [
+    "observe",
+    "object-observe",
+    "observable",
+    "proxy",
+    "on-change",
+    "changes"
+  ],
+  "author": "Tyler Stiene <tystiene@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stieneee/object-observable-lite/issues"
+  },
+  "homepage": "https://github.com/Stieneee/object-observable-lite#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "clone": "^2.1.2",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "release-it": "^12.4.1"
+  }
+}
