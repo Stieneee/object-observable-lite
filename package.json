@@ -1,6 +1,6 @@
 {
   "name": "object-observable-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Observe object changes deeply without cloning in an efficient manner.",
   "main": "index.js",
   "scripts": {
